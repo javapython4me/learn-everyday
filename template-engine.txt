@@ -1,0 +1,14 @@
+pug
+Renamed from Jade
+
+$ npm install pug
+$ npm install pug-cli -g
+
+What Template Engine should i use?
+
+By default, template engine found in Express is Jade
+which is now known as Pug.
+
+However, the default Jade installed in Express is stil ysing the 
+old version.
+
