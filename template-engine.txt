@@ -12,3 +12,33 @@ which is now known as Pug.
 However, the default Jade installed in Express is stil ysing the 
 old version.
 
+#2
+pubjs.org
+
+Iteration
+pug supports two primary methods of iteration
+1. each
+2. while
+
+Conditionals
+1. if
+2. else if
+3. else
+
+pug also provides the conditional unless,
+
+4. unless
+
+#3
+Comments
+two types of comments in pug
+1. Buffered comment
+Like tags, buffered comments must appear on their own line.
+// just some paragraphs
+
+2. Unbuffered comment
+These are only for commenting on the Pug code itself, and do not appear in the rendered HTML.
+
+Simply add a hyphen (-) to the start of the comment.
+//- will not output within markup
+
